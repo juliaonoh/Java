@@ -1,4 +1,4 @@
-Java.Shildt.Part1.Chapter02;
+Java.Shildt.Part01.Chapter02;
 "Example.java"
  class Example{
     public static void main(String[] args){
@@ -9,3 +9,64 @@ Java.Shildt.Part1.Chapter02;
 
 
 
+Java.Shildt.Part01.Chapter02;
+"Example2.java"
+class Example2 {
+public static void main(String[] args) {
+        int num;
+        num =100;
+
+        System.out.println("Это переменная num: " + num);
+        num = num*2;
+
+        System.out.print("Значение переменной num равно ");
+        System.out.println(num);
+    }
+}
+
+
+Java.Shildt.Part01.Chapter02;
+"IfSaiaple.java"
+class IfSample {
+puЫic static void main ( String args []) {
+void ma i n (String args []) {
+int х,у ;
+х = 10;
+у = 20;
+if ( x<у) System .out. println ("x меньше у");
+х = х*2;
+if (x == у) System.out.println ("x теперь равно у");
+х = х*2;
+if (x > у) System.out.println ("x теперь больше у");
+if (x == у) System.out.println ("вы не увидите этого" ;
+}
+}
+
+
+
+Java.Shildt.Part01.Chapter02;
+"ForTest.java "
+classForTest {
+puЫicstatic void main (String args []) {
+int х;
+for (x = О; x< lO;х =x+l )
+System.out.println ("Знaчeниe х:" + х);
+}
+}
+
+
+Java.Shildt.Part01.Chapter02;
+"BlockTest.java"
+classBlockTest {
+public static void main(String[] args) {
+        int x, y;
+        y = 20;
+
+        for(x=0; x<10; x++){
+            System.out.println("Значение x: " + x);
+            System.out.println("Значение y: " + y);
+
+            y=y-2;
+        }
+    }
+}
