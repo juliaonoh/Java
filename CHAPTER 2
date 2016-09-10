@@ -1,0 +1,11 @@
+Java.Shildt.Part1.Chapter02;
+"Example.java"
+ class Example{
+    public static void main(String[] args){
+        System.out.println("Простая программа на Java");
+
+    }
+}
+
+
+
